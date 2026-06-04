@@ -1,0 +1,14 @@
+{
+  "name": "yoda-cto-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Yoda CTO monorepo workspace",
+  "scripts": {
+    "dev": "pnpm --filter mission-control dev",
+    "build": "pnpm --filter mission-control build",
+    "test": "pnpm --filter mission-control test",
+    "db:push": "pnpm --filter mission-control db:push",
+    "db:generate": "pnpm --filter mission-control db:generate"
+  },
+  "packageManager": "pnpm@9.0.0"
+}
